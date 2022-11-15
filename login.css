@@ -2,6 +2,11 @@ html,
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-image: url('./background.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -16,7 +21,7 @@ body {
     border-style: solid;
     border-width: 0px;
     border-radius: 1rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.7);
     min-width: 30%;
     min-height: 20%;
     display: flex;
@@ -44,7 +49,9 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
+
 }
+
 /* username & password */
 
 input {
@@ -52,6 +59,7 @@ input {
     margin: 1rem;
     border: 0px;
     border-bottom: 1px solid black;
+    background-color: transparent;
 }
 
 input:focus {
@@ -61,12 +69,13 @@ input:focus {
 /* submit button */
 .button {
     padding: 1rem;
-    border:0px;
+    border: 0px;
     border-radius: 1.5rem;
     background-color: #1976D2;
-    color:white;
+    color: white;
 }
-.button:hover{
+
+.button:hover {
     background-color: #64B5F6;
-    color:black;
+    color: black;
 }
