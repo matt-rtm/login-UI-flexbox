@@ -48,7 +48,7 @@ form {
 /* username & password */
 
 input {
-    padding: 1rem 0 1rem;
+    padding: 1rem 0 0.5rem;
     margin: 1rem;
     border: 0px;
     border-bottom: 1px solid black;
@@ -60,12 +60,13 @@ input:focus {
 
 /* submit button */
 .button {
+    padding: 1rem;
     border:0px;
     border-radius: 1.5rem;
     background-color: #1976D2;
     color:white;
 }
 .button:hover{
-    background-color: #E3F2FD;
+    background-color: #64B5F6;
     color:black;
 }
