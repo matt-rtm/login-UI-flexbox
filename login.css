@@ -1,5 +1,7 @@
-html,body{
+html,
+body {
     margin: 0px;
+    font-family: sans-serif;
 }
 
 .container {
@@ -10,14 +12,60 @@ html,body{
     align-items: center;
 }
 
-.card   {
+.card {
     border-style: solid;
-    border-width: 4px;
-    border-radius: 12px;
-    border-color: rgba(0,0,0,0.3);
-    background-color: rgba(0,0,0,0.05);
+    border-width: 0px;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.05);
     min-width: 30%;
     min-height: 20%;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+
+
+    -webkit-box-shadow: 6px 4px 15px -4px rgba(102, 102, 102, 1);
+    -moz-box-shadow: 6px 4px 15px -4px rgba(102, 102, 102, 1);
+    box-shadow: 6px 4px 15px -4px rgba(102, 102, 102, 1);
+}
+
+
+/* title */
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+/* form section */
+form {
+    display: flex;
+    flex-direction: column;
+}
+/* username & password */
+
+input {
+    padding: 1rem 0 1rem;
+    margin: 1rem;
+    border: 0px;
+    border-bottom: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* submit button */
+.button {
+    border:0px;
+    border-radius: 1.5rem;
+    background-color: #1976D2;
+    color:white;
+}
+.button:hover{
+    background-color: #E3F2FD;
+    color:black;
 }
